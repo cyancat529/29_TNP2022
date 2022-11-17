@@ -56,41 +56,58 @@ Koristite direknto naša slova:
 \end{verbatim}
 
 
-\section{Engleski termini i citiranje}	
-\label{sec:termini_i_citiranje}
+\section{Verovatnoća da će doći so singularnosti}	
+\label{sec:verovatnoća}
 
-Na svakom mestu u tekstu naglasiti odakle tačno potiču informacije. Uz sve novouvedene termine u zagradi naglasiti od koje engleske reči termin potiče. 
+Nekoliko istaknutih tehnologa i akademika je diskutovalo o mogućnosti da se singularnost ostvari. 
 
-Naredni primeri ilustruju način uvođenja enlegskih termina kao i citiranje.
+Većina njih predlaže da do singularnosti može doći na jedan od dva načina: veštačkom inteligencijom i amplifikacijom ljudskog mozga, za koju su neke od predloženih metoda bioinženjering, genetski inženjering, AI asistenti, različite vrste droga, direktna veza mozga i računara, kao i "upload-ovanje" mozga na računar. Računajući da se konstantno radi na istraživanju ovakvih grana, mogućnost da dođemo do singularnosti se samo povećava. \cite{mog-1}
 
-\begin{primer}
-Problem zaustavljanja (eng.~{\em halting problem}) je neodlučiv \cite{haltingproblem}.
-\end{primer}
+Tri glavna faktora koji utiču na ostvarivanje singularnosti su: \cite{mog-2}
+\begin{itemize}
+\item Prvi, ubrzavajući, faktor su poboljšivači inteligencije, koji se konstantno nadograđuju na svoje predhodnike 
+\item Drugi, nasuprot prvom, je usporavajući faktor i on je otežavanje napretka time što je tehnologija sve naprednija. U jednom momentu će se možda doći da će komplikacije u razvoju prevazići potencijalni napredak inteligencije
+\item Treći, isto usporavajući, je eventualna fizička granica, gde zakoni fizike neće dozvoljavati dalji napredak  
+\end{itemize} 
+U online anketi iz 2017. godine, na pitanje koliko je verovatno da dođe do eksplozije inteligencije, 12\% ispitanika je reklo da će "vrlo verovatno" doći do iste, 17\% ispitanika je reklo "verovatno", 21\% ispitanika je reklo "možda", 24\% ispitanika je reklo "malo verovatno", a 26\% ispitanika je reklo da je to "skoro nemoguće". \cite{mog-3}
 
-\begin{primer}
-Za prevođenje programa napisanih u programskom jeziku C može se koristiti GCC kompajler \cite{gcc}.
-\end{primer}
+\subsection{Razvoj brzine tehnološkog napretka}
 
-\begin{primer}
- Da bi se ispitivala ispravost softvera, najpre je potrebno precizno definisati njegovo ponašanje \cite{laski2009software}. 
-\end{primer}
+Murov zakon (eng.~{\em Moore's law}), je opažanje da se broj tranzistora po jedinici prostora duplira na svake dve godine. 
 
-Ukoliko za unos referenci koriste datoteku {\em seminarski.bib},  prevođenje u pdf format u Linux okruženju može se uraditi na sledeći način:
-\begin{verbatim}
-pdflatex TemaImePrezime.tex 
-bibtex TemaImePrezime.aux 
-pdflatex TemaImePrezime.tex 
-pdflatex TemaImePrezime.tex 
-\end{verbatim}
-Prvo latexovanje je neophodno da bi se generisao {\em .aux} fajl. {\em bibtex} proizvodi odgovarajući {\em .bbl} fajl koji se koristi za generisanje literature. 
-Potrebna su dva prolaza (dva puta pdflatex) da bi se reference ubacile u tekst (tj da ne bi ostali znakovi pitanja umesto referenci). Dodavanjem novih referenci potrebno je ponoviti ceo postupak.  
+Analogija Murovom zakonu je da ako bi za prvo dupiranje brzine hardvera računara trebalo 18 meseci, sa sledeće bi trebalo 9, posle čega bi trebalo četiri, pa dva, jedan i tako dalje dok se eventualno ne bi došlo do neke gornje granice za brzinu. \cite{mog-4}
+
+Džef Hokins (eng.~{\em Jeff Hawkins}) je rekao da bi samopoboljšavajući računarski sistem eventualno došao do neke gornje granice računarske snage : "postoji granica koliko brzi i veliki računari mogu da postanu. U svakom slučaju, završićemo na istoj tački, možda samo malo brže. Ne bi došlo do singularnosti". \cite{mog-5}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.35]{moore.png}
+\end{center}
+\caption{Murov zakon}
+\label{fig:frog}
+\end{figure}
+
+Eksponencijalni napredak predložen u Murovom zakonu se koristi kao jedan od glavnih pokazatelja da rezumno očekivati dolazak singularnosti u skorijoj budućnosti.
+
+Rej Kurcvail (eng.~{\em Jeff Hawkins}) predlaže zakon o ubrzanom povratku, generalizujuću Murov zakon na celokupnu tehnologiju i govori o tome da se brzina tehnološkog razvoja eksponencijalno povećava. Taj zakon primenjuje i na tehnologije kao što su materijalna, medicinska i druge. \cite{mog-6}
+
+Kurcvail takođe veruje da će se singularnost desiti do 2045. godine, jer smatra da će tada veštačka inteligencija nadjačati ukupnu sumu moždanog kapaciteta celog čovečanstva. \cite{mog-6}
 
 
-Broj naslova i podnaslova je proizvoljan. Neophodni su samo Uvod i Zaključak. Na poglavlja unutar teksta referisati se po potrebi. 
-\begin{primer}
-U odeljku \ref{sec:naslov1} precizirani su osnovni pojmovi, dok su zaključci dati u odeljku \ref{sec:zakljucak}.
-\end{primer}
+\subsection{Razvoj algoritama}
 
+Neke tehnologije, kao 'seed AI' \cite{mog-7}, imaju potencijal da se ne samo ubrzaju, već i da poboljšaju svoju efikasnost promenom sopstvenog izvornog koda. 
+Ovaj mehanizam se od čistog povećanja brzine izvršavanja razlikuje u dva pogleda.
+
+Prvo, za njega nije potreban spoljni uticaj. Za razliku od hardverskog ubrzavanja, gde je potreban bar neki nivo interakcije od strane čoveka, u ovom mehanizmu AI sam menja sopstveni kod.
+
+Drugo, kao po Vernor Vindžovom (eng.~{\em Vernor Vinge}) viđenju singularnosti, ovaj pristup može biti vrlo nepredvidiv. \cite{mog-8}
+
+\subsection{Kritike}
+
+Neki kritičari, kao Hjubert Drejfus (eng.~{\em Hubert Dreyfus}) tvrde da računari i mašine ne mogu dostići nivo ljudske inteligencije, dok neki kao fizičar Stiven Hoking {\em Stephen Hawking}) tvrde da je definicija inteligencije zanemarljiva ukoliko je krajnji rezultat isti. \cite{mog-9}
+
+Martin Ford u svojoj knjzi "The Lights in the Tunnel: Automation, Accelerating Technology and the Economy of the Future" predlaže "tehnološki paradoks", gde tvrdi da do singularnosti neće doći, zato što bi ona dovela do masovne nezaposlenosti i smanjene trgovinske potražnje, jer bi se pokazala efikasnijom od radnika, što bi za uzvrat dovelo do smanjene inicijative da se ulaže u iste tehnologije. \cite{mog-10}
 
 
 
@@ -106,13 +123,13 @@ Slike i tabele treba da budu u svom okruženju, sa odgovarajućim naslovima, obe
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.75]{pande.jpg}
+\includegraphics[scale=0.25]{frog.jpg}
 \end{center}
-\caption{Pande}
-\label{fig:pande}
+\caption{Frog}
+\label{fig:frog}
 \end{figure}
 
-Na svaku sliku neophodno je referisati se negde u tekstu. Na primer, na slici \ref{fig:pande} prikazane su pande. 
+Na svaku sliku neophodno je referisati se negde u tekstu. Na primer, na slici \ref{fig:frog} prikazane su pande. 
 \end{primer}
 
 \begin{primer} I tabele treba da budu u svom okruženju, i na njih je neophodno referisati se u tekstu. Na primer, u tabeli \ref{tab:tabela1} su prikazana različita poravnanja u tabelama.
@@ -258,6 +275,27 @@ Ovde pišem zaključak.
 \bibitem{laski2009software} J. Laski and W. Stanley. \emph{Software Verification and Analysis}. Springer- Verlag, London, 2009.
 
 \bibitem{gcc} Free Software Foundation. GNU gcc, 2013. on-line at: http://gcc. gnu.org/.
+
+\bibitem{mog-1} "What is the Singularity? | Singularity Institute for Artificial Intelligence",  \href{https://web.archive.org/web/20110908014050/http://singinst.org/overview/whatisthesingularity/}{Singinst.org}.
+
+\bibitem{mog-2} Hanson, Robin (1998). \href{https://mason.gmu.edu/~rhanson/vc.html#hanson}{"Some Skepticism"}.
+
+\bibitem{mog-3} Grace, Katja; Salvatier, John; Dafoe, Allan; Zhang, Baobao; Evans, Owain (24 May 2017). "When Will AI Exceed Human Performance? Evidence from AI Experts"
+
+\bibitem{mog-4} Eliezer Yudkowsky, 1996 "Staring into the Singularity"
+
+\bibitem{mog-5} https://spectrum.ieee.org/tech-luminaries-address-singularity
+
+\bibitem{mog-6} Ray Kurzweil, The Singularity Is Near, Penguin Group, 2005
+
+\bibitem{mog-7} Yampolskiy, Roman V. "Analysis of types of self-improving software." Artificial General Intelligence. Springer International Publishing, 2015.
+
+\bibitem{mog-8} Eliezer S. Yudkowsky. "Power of Intelligence"
+
+\bibitem{mog-9} Dreyfus & Dreyfus 2000, p. xiv: 'The truth is that human intelligence can never be replaced with machine intelligence simply because we are not ourselves "thinking machines" in the sense in which that term is commonly understood.' Hawking (1998): 'Some people say that computers can never show true intelligence whatever that may be. But it seems to me that if very complicated chemical molecules can operate in humans to make them intelligent then equally complicated electronic circuits can also make computers act in an intelligent way. And if they are intelligent they can presumably design computers that have even greater complexity and intelligence.'
+
+\bibitem{mog-10}
+\href{https://www.nytimes.com/2011/03/05/science/05legal.html}{"Armies of Expensive Lawyers, Replaced by Cheaper Software"}.
 
 \bibitem{haltingproblem} A. M. Turing. \emph{On Computable Numbers, with an application to the Entscheidungsproblem}. Proceedings of the London Mathematical Society, 2(42):230–265, 1936.
 
